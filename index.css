@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #0A0A0A;
+}
+.container{
+    margin-top: 15%;
+    background-color: #232323;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px  #151515;
+}
+#name{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.body{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.body .upper{
+    display: flex;
+    gap: 20px;
+    height: 30px;
+    width: auto;
+    margin-bottom: 30px;
+}
+.upper .enter{
+    width: auto;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.upper .input{
+    width: 200px;
+    height: auto;
+    font-weight: bold;
+    background-color: white;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+}
+#sign{
+    width: 50px;
+    height: auto;
+    background-color: white;
+}
+#final{
+    width: 200px;
+    height: auto;
+    background-color: white;
+}
+.enter:hover{
+    cursor: default;
+}
+.body .keypad{
+    display: flex;
+    gap: 50px;
+    height: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.keypad .symbol{
+    width: 100px;
+    height: 100%;
+    margin-right: 30px;
+    font-size: 25px;
+    text-align: center;
+    place-items: center;
+    border-radius: 30px;
+}
+.symbol:hover{
+    cursor: pointer;
+}
+.control{
+    display: flex;
+    gap: 50px;
+    height: auto;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.result{
+    background-color: white;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    border-radius: 30px;
+}
+.result:hover{
+    cursor: pointer;
+}
