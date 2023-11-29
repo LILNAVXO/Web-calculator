@@ -31,8 +31,6 @@ function clickRes(){
         answer.innerHTML = a*b;       
     }else if(sign.innerHTML == '/'){
         answer.innerHTML = a/b;
-    }else if(isNaN(a)||isNaN(b) == true){
-        alert('The values given are not a number!');
     }else{
         alert('please choose an operator');
     }
